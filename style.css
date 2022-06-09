@@ -1,11 +1,58 @@
+:root {
+    --card-color:#d62741;
+    --BackGround-color:#e04c63;
+    --PlaceHolder-color:#f27492;
+    --text-color:#2b2029;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--PlaceHolder-color);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--PlaceHolder-color);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--PlaceHolder-color);
+  }
+
 h4{
     margin: 0;
 }
 
-.card{
-    font-size: 140%;
+div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
+    margin-top: 2%;
+}
+
+.card{
+    font-size: 1.8vw;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--card-color);
+}
+
+#SearchBar {
+    width: 50%;
+    padding: 1%;
+    font-size: 1.8vw;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: var(--BackGround-color);
+}
+
+.background {
+    background-color: var(--BackGround-color);
+    margin: 0;
+    padding: 1%;
 }
