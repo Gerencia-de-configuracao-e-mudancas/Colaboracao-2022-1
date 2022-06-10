@@ -1,8 +1,8 @@
 :root {
-    --card-color:#d62741;
-    --BackGround-color:#e04c63;
-    --PlaceHolder-color:#f27492;
-    --text-color:#2b2029;
+    --card-color:#020000;
+    --BackGround-color:#252323;
+    --PlaceHolder-color:white;
+    --text-color:white;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -38,9 +38,11 @@ div {
     flex-direction: column;
     align-items: center;
     background-color: var(--card-color);
+    border-radius: 2%;
 }
 
-#SearchBar {
+#searchBar {
+    color: white;
     width: 50%;
     padding: 1%;
     font-size: 1.8vw;
@@ -55,4 +57,10 @@ div {
     background-color: var(--BackGround-color);
     margin: 0;
     padding: 1%;
+}
+
+footer{
+    margin: 10px;
+    color: white;
+    text-align: center;
 }
