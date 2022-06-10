@@ -1,3 +1,9 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 :root {
     --card-color:#347cda;
     --BackGround-color:#494949;
@@ -28,15 +34,15 @@ div {
 }
 
 .card{
-    font-size: 1.8vw;
-    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
     color: var(--text-color);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    padding: 40px 0px;
     align-items: center;
     background-color: var(--card-color);
-    border-radius: 2%;
 }
 
 #searchBar {
@@ -44,8 +50,7 @@ div {
     width: 50%;
     padding: 1%;
     margin-bottom: 15px;
-    font-size: 1.8vw;
-    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
     border: none;
     outline: none;
     border-radius: 20px;
@@ -59,12 +64,12 @@ div {
 .background {
     background-color: var(--BackGround-color);
     margin: 0;
-    padding: 1%;
 }
-.end-page{
+footer.end-page{
     margin-top: 2%;
-    font-size: 1vw;
-    font-family: 'Poppins', sans-serif;
+    padding: 25px 0px;
+    font-size: 1rem;
+    background-color: rgb(46, 46, 46);
     display: flex;
     flex-direction: column;
     align-items: center;
