@@ -56,3 +56,19 @@ div {
     margin: 0;
     padding: 1%;
 }
+.end-page{
+    margin-top: 2%;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.end-page p{
+    margin: 8px auto;
+    font-weight: bold;
+    
+    
+
+}
