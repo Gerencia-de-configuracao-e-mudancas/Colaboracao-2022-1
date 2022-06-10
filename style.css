@@ -1,8 +1,8 @@
 :root {
-    --card-color:#020000;
-    --BackGround-color:#252323;
-    --PlaceHolder-color:white;
-    --text-color:white;
+    --card-color:#347cda;
+    --BackGround-color:#494949;
+    --PlaceHolder-color:#0084ff;
+    --text-color:#ffffff;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -21,19 +21,17 @@
 h4{
     margin: 0;
 }
-
 div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2%;
 }
 
 .card{
     font-size: 1.8vw;
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,17 +48,26 @@ div {
     border: none;
     outline: none;
     border-radius: 20px;
-    background-color: var(--BackGround-color);
+    color:var(--PlaceHolder-color);
+    background-color:var(--BackGround-color);
+    text-shadow: 1px 1px 5px black;
 }
-
 .background {
     background-color: var(--BackGround-color);
     margin: 0;
     padding: 1%;
 }
-
-footer{
-    margin: 10px;
-    color: white;
-    text-align: center;
+.end-page{
+    margin-top: 2%;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.end-page p{
+    margin: 8px auto;
+    font-weight: bold;
+    color: var(--text-color);
+    text-shadow: 1px 1px 1px black;
 }
