@@ -7,3 +7,4 @@ Searchbar.addEventListener('focus', () => {
 Searchbar.addEventListener('focusout', () => {
     Searchbar.style.boxShadow = "none";
 });
+
