@@ -1,8 +1,8 @@
 :root {
-    --card-color:#d62741;
-    --BackGround-color:#e04c63;
-    --PlaceHolder-color:#f27492;
-    --text-color:#2b2029;
+    --card-color:#347cda;
+    --BackGround-color:#ffffff;
+    --PlaceHolder-color:#ff0000;
+    --text-color:#ffffff;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
