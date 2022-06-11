@@ -61,6 +61,9 @@ div {
 .card h4, h1{
     text-shadow: 1px 1px 5px black;
 }
+.card p{
+    font-weight: lighter;
+}
 .background {
     background-color: var(--BackGround-color);
     margin: 0;
