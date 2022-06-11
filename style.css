@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 :root {
-    --card-color:#347cda;
-    --BackGround-color:#494949;
-    --PlaceHolder-color:#0084ff;
-    --text-color:#ffffff;
+    --card-color:#d30000;
+    --BackGround-color:#b9ffe8;
+    --PlaceHolder-color:#3dd800;
+    --text-color:#696b00;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
