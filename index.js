@@ -19,6 +19,7 @@ function montandoObjetos() {
         comandos.push(comando);
     }
 }
+montandoObjetos();
 
 function montandoDivResultado(nome, descr) {
     const divResult = document.createElement('div');
