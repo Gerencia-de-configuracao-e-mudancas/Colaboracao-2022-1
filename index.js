@@ -10,12 +10,13 @@ class Comando{
     }
 }
 
-function pegarNomes() {
-    for (const n of nomes) {
-        const nome = n.textContent;
-        const comando = new Comando(nome);
+function montandoObjetos() {
+    for (let i = 0; i < nomes.length; i++) {
+        const nome = nomes[i].textContent;
+        const descricao = descricoes[i].textContent
+        const comando = new Comando(nome, descricao);
         comandos.push(comando);
-    };    
+    }
 }
 
 Searchbar.addEventListener('focus', () => {
